@@ -10,6 +10,8 @@
 		66F0FDE9295C9C67005C0E7A /* KraevedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F0FDE0295C9C67005C0E7A /* KraevedKit.framework */; };
 		66F0FDEE295C9C67005C0E7A /* KraevedKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0FDED295C9C67005C0E7A /* KraevedKitTests.swift */; };
 		66F0FDEF295C9C67005C0E7A /* KraevedKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 66F0FDE3295C9C67005C0E7A /* KraevedKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66F0FDF9295C9C8C005C0E7A /* KTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0FDF8295C9C8C005C0E7A /* KTextField.swift */; };
+		66F0FDFD295CA9F6005C0E7A /* KraevedKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 66F0FDFC295CA9F6005C0E7A /* KraevedKit.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 		66F0FDE3295C9C67005C0E7A /* KraevedKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KraevedKit.h; sourceTree = "<group>"; };
 		66F0FDE8295C9C67005C0E7A /* KraevedKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KraevedKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F0FDED295C9C67005C0E7A /* KraevedKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KraevedKitTests.swift; sourceTree = "<group>"; };
+		66F0FDF8295C9C8C005C0E7A /* KTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTextField.swift; sourceTree = "<group>"; };
+		66F0FDFC295CA9F6005C0E7A /* KraevedKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KraevedKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		66F0FDD6295C9C67005C0E7A = {
 			isa = PBXGroup;
 			children = (
+				66F0FDFC295CA9F6005C0E7A /* KraevedKit.podspec */,
 				66F0FDE2295C9C67005C0E7A /* KraevedKit */,
 				66F0FDEC295C9C67005C0E7A /* KraevedKitTests */,
 				66F0FDE1295C9C67005C0E7A /* Products */,
@@ -70,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				66F0FDE3295C9C67005C0E7A /* KraevedKit.h */,
+				66F0FDF8295C9C8C005C0E7A /* KTextField.swift */,
 			);
 			path = KraevedKit;
 			sourceTree = "<group>";
@@ -144,6 +150,7 @@
 				TargetAttributes = {
 					66F0FDDF295C9C67005C0E7A = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 					};
 					66F0FDE7295C9C67005C0E7A = {
 						CreatedOnToolsVersion = 14.1;
@@ -174,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F0FDFD295CA9F6005C0E7A /* KraevedKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F0FDF9295C9C8C005C0E7A /* KTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +345,7 @@
 		66F0FDF3295C9C67005C0E7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -355,6 +365,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +374,7 @@
 		66F0FDF4295C9C67005C0E7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -390,6 +402,7 @@
 		66F0FDF6295C9C67005C0E7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -405,6 +418,7 @@
 		66F0FDF7295C9C67005C0E7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
