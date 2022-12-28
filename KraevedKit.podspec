@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "KraevedKit"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.4"
   spec.summary      = "Kit for Kraeved app"
 
   spec.description  = <<-DESC
