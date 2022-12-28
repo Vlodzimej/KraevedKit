@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "KraevedKit"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.3"
   spec.summary      = "Kit for Kraeved app"
 
   spec.description  = <<-DESC
@@ -18,7 +18,6 @@ Learning project for GPB-iOS. Represents a square view with name
   spec.source        = { :git => "https://github.com/Vlodzimej/KraevedKit.git", :tag => "#{spec.version}" }
   spec.source_files  = "KraevedKit/**/*.{h,m,swift}"
 
-  spec.dependency 'SnapKit'
   spec.dependency 'KraevedKit'
 
   spec.public_header_files = "KraevedKit/**/*.{h}"
