@@ -7,7 +7,7 @@
 
 import UIKit
 
-class KTextField: UITextField {
+public class KTextField: UITextField {
     private let bottomLineColor: UIColor
     private var bottomLineLayer: CALayer?
     
