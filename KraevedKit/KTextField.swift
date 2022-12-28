@@ -11,13 +11,13 @@ public class KTextField: UITextField {
     private let bottomLineColor: UIColor
     private var bottomLineLayer: CALayer?
     
-    var isBottomLineHidden: Bool = false {
+    public var isBottomLineHidden: Bool = false {
         didSet {
             bottomLineLayer?.isHidden = isBottomLineHidden
         }
     }
     
-    init(bottomLineColor: UIColor = UIColor.gray) {
+    public init(bottomLineColor: UIColor = UIColor.gray) {
         self.bottomLineColor = bottomLineColor
         super.init(frame: .zero)
         borderStyle = .none
