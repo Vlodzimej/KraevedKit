@@ -19,7 +19,7 @@ Learning project for GPB-iOS. Represents a square view with name
   spec.source_files  = "KraevedKit/**/*.{h,m,swift}"
 
   spec.dependency 'SnapKit'
-  spec.dependency 'OtusHomework'
+  spec.dependency 'KraevedKit'
 
   spec.public_header_files = "KraevedKit/**/*.{h}"
 end
