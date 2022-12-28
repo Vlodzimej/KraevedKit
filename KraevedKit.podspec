@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "KraevedKit"
-  spec.version      = "0.0.5"
-  spec.summary      = "Kit for Kraeved app"
+  spec.version      = "0.0.6"
+  spec.summary      = "Kraeved"
 
   spec.description  = <<-DESC
-Learning project for GPB-iOS. Represents a square view with name
+    UI elements for Kraeved app
                    DESC
 
   spec.homepage     = "https://github.com/Vlodzimej/KraevedKit"

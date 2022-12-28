@@ -23,7 +23,7 @@ public class KTextField: UITextField {
         borderStyle = .none
     }
 
-    override func layoutSubviews() {
+    public override func layoutSubviews() {
         super.layoutSubviews()
         
         if bottomLineLayer == nil {
